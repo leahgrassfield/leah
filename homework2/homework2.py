@@ -27,8 +27,7 @@
 # ~ means home directory
 
 # 8) What’s the difference between an absolute path and a relative path?
-#An absolute path is the entire pathway to your loaction, and a relative path 
-#takes into account where you are currently (you don't have to type the whole thing)
+#An absolute path is the entire pathway to your loaction, and a relative path takes into account where you are currently (you don't have to type the whole thing)
 
 # 9) Imagine you're in your "yourname" repo. Write the absolute and relative paths to "course_assignments/homework2".
 #/~/PythonDecal/leah/course_assignments/homework2
