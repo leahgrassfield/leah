@@ -1,7 +1,7 @@
 # 3 Lists
 # 3.1 List Operations
 
-fav_foods = ["cookies", "noodles", "almond pastries", "sushi", "hot chocolate"]
+fav_foods = ["raspberries", "sour candy", "chupe", "orange chicken", "spring rolls"]
 
 print(fav_foods[1])
 
@@ -72,19 +72,20 @@ def sum_nested(numbers):
         return total
 print(sum_nested(numbers))
 
-# COME BACK TO THIS LATER____________________
-'''
-def fivebyfive_forloop(num):
+# 3.4 Create a 5x5 List
+
+def fivebyfive_forloop():
     matrix = []
+    x, y = 1, 1
     for i in range(5):
         row = []
         for j in range(5):
-            row.append(num[i][j])
+            row.append(x * y)
+            y += 1
         matrix.append(row)
     return matrix
-
-print(fivebyfive_forloop(num))
-'''
+    
+print(fivebyfive_forloop())
 #________________________________________
 
 #4 Dictionaries
@@ -107,3 +108,7 @@ del ages["Mariam"]
 
 for name, age in ages.items():
     print(f"{name}, {age}")
+
+#Favorite function
+fav_foods = ["raspberries", "sour candy", "chupe", "orange chicken", "spring rolls"]
+print(fav_foods[-1])
